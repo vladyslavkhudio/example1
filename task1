@@ -1,8 +1,9 @@
+def sum_max(a):
+    while True:
+        n = int(input())
+        a.append(n)
+        if n == 0:
+            print(sum(a))
+            print(max(a))
 a = list()
-
-while True:
-    n = int(input())
-    a.append(n)
-    if n == 0:
-        print(sum(a))
-        print(max(a))
+sum_max(a)
